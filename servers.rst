@@ -20,6 +20,14 @@ documentation on how to use the server is especially appreciated.
 
     A pure-Python web server (using the CherryPy module mentioned
     next) with three hooks to hang your WSGI on.
+    
+`Bjoern <https://github.com/jonashaag/bjoern>`_
+    A “screamingly fast Python WSGI server” and boasts that
+    it is “the fastest, smallest and most lightweight WSGI server.”
+    See performance testing `testing WSGI servers with 
+    wrk <https://www.appdynamics.com/blog/engineering/a-performance-analysis-of-python-wsgi-servers-part-2/>`_
+    See the `install instructions <https://github.com/jonashaag/bjoern/wiki/Installation>`_
+
 
 `cherrypy.wsgiserver <http://docs.cherrypy.org/en/latest/advanced.html#wsgi-support>`_
 
@@ -28,9 +36,8 @@ documentation on how to use the server is especially appreciated.
     chunked. For details on running foreign (non-CherryPy) applications
     under the CherryPy WSGI server, see `WSGI Support
     <http://docs.cherrypy.org/en/latest/advanced.html#wsgi-support>`_.
-    See also the
-    `CherryPy wiki ModWSGI page <http://tools.cherrypy.org/wiki/ModWSGI>`_.
-
+    See also the `CherryPy wiki ModWSGI page <http://tools.cherrypy.org/wiki/ModWSGI>`_.
+    
 `chiral.web.httpd <http://chiral.j4cbo.com/trac>`_
     
     A fast HTTP server supporting WSGI, with extensions for
